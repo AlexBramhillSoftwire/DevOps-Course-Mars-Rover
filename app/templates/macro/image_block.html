@@ -1,0 +1,10 @@
+{% macro image_block(image_url, description) %}
+  <div class="card">
+    <img class="card-img-top" src="{{image_url}}" />
+    {% if description %}
+    <div class="card-body">
+      <p class="card-text">{{ description }}</p>
+    </div>
+    {% endif %}
+  </div>
+{% endmacro %}

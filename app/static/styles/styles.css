@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://static.independent.co.uk/2022/07/14/23/Carina%20small.jpeg?quality=75&width=990&auto=webp&crop=982:726,smart');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card {
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.header {
+    color: white;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.description_text {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    color: white;
+}

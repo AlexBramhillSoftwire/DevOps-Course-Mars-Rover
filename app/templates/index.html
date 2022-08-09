@@ -1,8 +1,15 @@
-{% extends "layout.html" %}
-{% block title %}Space Exploration Portal{% endblock %}
+{% extends "layout.html" %} {% block title %}Space Exploration Portal{% endblock
+%} {% block content %}
+<h1 class="header">Image of the Day:</h1>
 
-{% block content %}
-  <h1 class="display-4">Image of the Day:</h1>
+<div class="homepage">
+    <div class="title">
+        Title: {{title}}
+    </div>
+    <div class="video">
+        <iframe src="{{ landing_image }}" scrolling="no" width="560" height="315"></iframe>
+    </div>
+    <div class="description_text">{{description}}</div>
+</div>
 
-  <img src="{{ landing_image }}">
 {% endblock %}
